@@ -19,36 +19,14 @@
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
   <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.google.cloud</groupId>
-        <artifactId>libraries-bom</artifactId>
-        <version>26.43.0</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
+
   </dependencyManagement>
 
   <dependencies>
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-vertexai</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-    <!-- We can add additional dependencies here -->
-    <dependency>
-      <groupId>com.github.ricksbrown</groupId>
-      <artifactId>cowsay</artifactId>
-      <version>1.1.0</version>
-      <!-- The "lib" classifier is optional, but it gives you a MUCH smaller jar which is all you
-      need as a Java library -->
-      <classifier>lib</classifier>
+      <version>1.3.0</version>
     </dependency>
   </dependencies>
 
