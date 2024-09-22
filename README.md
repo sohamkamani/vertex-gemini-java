@@ -1,6 +1,6 @@
 # Using the Vertex (Google Cloud) Gemini API in Java
 
-This is the example repo for my blog post on [Using the Vertex (Google Cloud) Gemini API in Java](https://sohamkamani.com/java/vertex-gemini-api)
+This is the example repo for my blog post on [Using the Vertex (Google Cloud) Gemini API in Java](https://sohamkamani.com/java/gemini-vertex-api)
 
 To run this example:
 
